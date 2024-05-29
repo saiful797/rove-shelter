@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^2.7.1",
+    "@stripe/stripe-js": "^3.4.1",
     "aos": "^2.3.4",
     "axios": "^1.6.8",
     "firebase": "^10.11.1",
@@ -31,6 +33,7 @@
     "react-tooltip": "^5.26.4",
     "slick-carousel": "^1.8.1",
     "sort-by": "^1.2.0",
+    "stripe": "^15.8.0",
     "swiper": "^11.1.1"
   },
   "devDependencies": {

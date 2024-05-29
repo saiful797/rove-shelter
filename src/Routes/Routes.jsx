@@ -12,6 +12,7 @@ import ContactUsPage from "../Pages/ContactUsPage/ContactUsPage";
 import MyBookingsPage from "../Pages/MyBookingsPage/MyBookingsPage";
 import UpdateBookedRoomDate from "../Pages/UpdateBookedRoomDate/UpdateBookedRoomDate";
 import AddReviewsPage from "../Pages/AddReviewsPage/AddReviewsPage";
+import Payment from "../Pages/MyBookingsPage/Payment/Payment";
 
 const router = createBrowserRouter([
     {
@@ -51,6 +52,12 @@ const router = createBrowserRouter([
           path: '/myBookings',
           element:<PrivateRoute>
             <MyBookingsPage />
+          </PrivateRoute>
+        },
+        {
+          path: '/payment/:price',
+          element:<PrivateRoute>
+            <Payment  />
           </PrivateRoute>
         },
         {

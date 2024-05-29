@@ -4,6 +4,7 @@ import useURL from "../../Hooks/useURL/useURL";
 import useAuth from "../../Hooks/useAuth/useAuth";
 import MyBookingsPageRows from "./MyBookingsPageRows/MyBookingsPageRows";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const MyBookingsPage = () => {
     const {user} = useAuth();
@@ -20,11 +21,17 @@ const MyBookingsPage = () => {
 
     const allMyBookings = myBookings.filter(booking => booking.user_email === user.email);
 
+    const totalPrice = allMyBookings.reduce((total, booking) => total + parseFloat(booking.price-1000),0);
+
     return (
         <div className="overflow-x-auto mt-10 min-h-[50vh]">
             <Helmet>
                 <title>Rove Shelter | My Bookings Page </title>
             </Helmet>
+            <div className="flex gap-16 justify-center items-center mb-10 bg-green-100 lg:w-1/2 mx-auto py-8">
+                <p><span className="text-2xl font-bold">Total Amount:</span> <span className="text-2xl font-bold text-[#f53232]"> ${totalPrice}</span></p>
+                <Link to={`/payment/${totalPrice}`} disabled = {!allMyBookings.length} className="btn btn-sm w-40 bg-[#f27608] hover:bg-black text-white text-lg">Pay Now</Link>
+            </div>
 
             <table className="table">
                 {/* head */}
