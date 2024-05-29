@@ -1,7 +1,6 @@
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import { useNavigate } from "react-router-dom";
 import PropTypes from 'prop-types';
 import axios from "axios";
 import useAuth from "../../../Hooks/useAuth/useAuth";
@@ -11,7 +10,6 @@ const CheckoutForm = ({ amount }) => {
     const [ errorMessage, setErrorMessage ] = useState( '' );
     const [ clientSecret, setClientSecret ] = useState( '' );
     const [ transactionId, setTransactionId ] = useState( '' );
-    const navigate = useNavigate();
 
     const stripe = useStripe();
     const elements = useElements();
@@ -44,7 +42,6 @@ const CheckoutForm = ({ amount }) => {
     const handleSubmit = async( e )=> {
         e.preventDefault();
         toast.success('Payment Successful!');
-        navigate('/')
         
         if( !stripe || !elements) {
             return ;
