@@ -1,0 +1,123 @@
+[
+  {
+    "room_id": "101",
+    "description": "Indulge in comfort and luxury in our spacious Deluxe Room. Featuring elegant decor and modern amenities, this room offers a serene retreat for travelers. Unwind and enjoy stunning views of the city skyline or lush greenery from your window. Perfect for both business and leisure travelers seeking a tranquil stay.",
+    "price": 200,
+    "room_size": "400 sq ft",
+    "availability": true,
+    "image": "https://i.postimg.cc/QtZTcYWb/19.jpg",
+    "offers": "Complimentary breakfast", 
+    "reviews": 0,
+    "rating" : 0,
+    "user_email": ""
+  },
+  {
+    "room_id": "102",
+    "description": "Experience sophistication and relaxation in our Executive Suite with panoramic views. This spacious suite boasts modern furnishings and luxurious amenities for a memorable stay. Enjoy a restful night's sleep in the plush king-sized bed or unwind in the cozy seating area. Ideal for discerning travelers looking for a premium accommodation experience.",
+    "price": 350,
+    "room_size": "600 sq ft",
+    "availability": true,
+    "image": "https://i.postimg.cc/J7cb58xB/2.jpg",
+    "offers": "Late check-out",
+    "reviews": 0,
+    "rating" : 0,
+    "user_email": ""
+  },
+  {
+    "room_id": "103",
+    "description": "Treat yourself to a memorable stay in our Family Suite with ample space for relaxation. Ideal for families or groups, this suite features separate sleeping and living areas for added privacy. Enjoy breathtaking views of the mountains or city skyline from the comfort of your room. A perfect choice for those seeking comfort and convenience.",
+    "price": 300,
+    "room_size": "800 sq ft",
+    "availability": true,
+    "image": "https://i.postimg.cc/bJ02g0xj/17.jpg",
+    "offers": "Complimentary shuttle service",
+    "reviews": 0,
+    "rating" : 0,
+    "user_email": ""
+  },
+  {
+    "room_id": "104",
+    "description": "Retreat to our cozy Standard Room for a relaxing stay amidst tranquil surroundings. Decorated in warm tones and modern furnishings, this room offers a comfortable retreat for solo travelers or couples. Enjoy a restful night's sleep in the plush queen-sized bed and wake up refreshed for a day of exploration. An ideal choice for budget-conscious travelers.",
+    "price": 150,
+    "room_size": "300 sq ft",
+    "availability": true,
+    "image": "https://i.postimg.cc/3Jf0txvW/15.jpg",
+    "offers": "Outdoor barbecue area",
+    "reviews": 0,
+    "rating" : 0,
+    "user_email": ""
+  },
+  {
+    "room_id": "105",
+    "description": "Elevate your stay with our luxurious Penthouse Suite offering unparalleled comfort and elegance. Spread across two levels, this suite features a private terrace with breathtaking views of the city skyline. Indulge in spacious living areas, a fully equipped kitchen, and premium amenities for a truly lavish experience. Perfect for special occasions or romantic getaways.",
+    "price": 600,
+    "room_size": "1200 sq ft",
+    "availability": true,
+    "image": "https://i.postimg.cc/FHyXxmG8/14.jpg",
+    "offers": "VIP concierge service",
+    "reviews": 0,
+    "rating" : 0,
+    "user_email": ""
+  },
+  {
+    "room_id": "106",
+    "description": "Escape to our charming Cottage nestled amidst lush gardens for a peaceful retreat. Decorated in rustic style with modern amenities, this cozy cottage offers a homely ambiance for relaxation. Enjoy serene views of the surrounding landscape from your private patio or take a leisurely stroll in the garden. An idyllic choice for nature lovers seeking tranquility.",
+    "price": 180,
+    "room_size": "500 sq ft",
+    "availability": true,
+    "image": "https://i.postimg.cc/4xDbXRgf/18.jpg",
+    "offers": "Outdoor barbecue area",
+    "reviews": 0,
+    "rating" : 0,
+    "user_email": ""
+  },
+  {
+    "room_id": "107",
+    "description": "Experience ultimate luxury in our opulent Villa with exclusive amenities and services. Featuring a private infinity pool and expansive living spaces, this villa offers unmatched comfort and privacy. Enjoy personalized butler service, gourmet dining options, and panoramic views of the ocean or lush landscapes. An ideal choice for a lavish getaway or special celebration.",
+    "price": 1200,
+    "room_size": "2000 sq ft",
+    "availability": true,
+    "image": "https://i.postimg.cc/kGgWTnxc/16.jpg",
+    "offers": "Airport transfer",
+    "reviews": 0,
+    "rating" : 0,
+    "user_email": ""
+  },
+  {
+    "room_id": "108",
+    "description": "Immerse yourself in luxury and elegance in our Boutique Hotel Room with premium amenities. Decorated in chic style with designer furnishings, this room offers a sophisticated ambiance for discerning travelers. Enjoy stunning views of the city skyline or lush landscapes from your private balcony. Perfect for guests seeking a stylish and comfortable stay.",
+    "price": 250,
+    "room_size": "350 sq ft",
+    "availability": true,
+    "image": "https://i.postimg.cc/rsstSfkZ/20.jpg",
+    "offers": "Complimentary wine tasting",
+    "reviews": 0,
+    "rating" : 0,
+    "user_email": ""
+  },
+  {
+    "room_id": "109",
+    "description": "Escape to our cozy Rustic Cabin nestled amidst serene woodlands for a tranquil getaway. Featuring charming wood interiors and modern amenities, this cabin offers a comfortable retreat for nature lovers. Relax on the porch swing and immerse yourself in the sights and sounds of the forest or enjoy outdoor adventures nearby. An ideal choice for a secluded and rejuvenating escape.",
+    "price": 120,
+    "room_size": "400 sq ft",
+    "availability": false,
+    "image": "https://i.postimg.cc/GhZsyPSz/21.jpg",
+    "offers": "24-hour room service",
+    "reviews": 0,
+    "rating" : 0,
+    "user_email": ""
+  },
+  {
+    "room_id": "110",
+    "description": "Experience beachfront bliss in our luxurious Bungalow with direct access to the shoreline. Relax in style with spacious living areas, a private sundeck, and breathtaking ocean views. Indulge in beachside dining experiences or unwind with a refreshing dip in the turquoise waters. Perfect for sun seekers and water enthusiasts seeking an unforgettable seaside escape.",
+    "price": 400,
+    "room_size": "700 sq ft",
+    "availability": true,
+    "image": "https://i.postimg.cc/BbPnSks3/22.jpg",
+    "offers":"Complimentary snorkeling gear",
+    "reviews": 0,
+    "rating" : 0,
+    "user_email": ""
+  }
+]
+  
